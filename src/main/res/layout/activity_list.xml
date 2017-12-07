@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.tarunkumar.doctorfind.list"
+    android:background="#ffffff">
+
+ <!-- <TextView
+      android:id="@+id/tv1"
+      android:text="fname"
+      android:layout_width="170dp"
+      android:layout_height="match_parent"
+      android:layout_alignParentLeft="true"
+      android:gravity="center"
+      android:textAppearance="?android:textAppearanceLarge"/>
+  <TextView
+      android:id="@+id/tv2"
+
+      android:text="address"
+      android:layout_width="170dp"
+      android:layout_height="match_parent"
+      android:layout_toRightOf="@+id/tv1"
+      android:gravity="center"
+      android:textAppearance="?android:textAppearanceLarge"/>
+
+  <ListView
+      android:layout_below="@+id/tv2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/displaylist"
+      ></ListView>
+
+</RelativeLayout>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ScrollView>
+<ListView
+    android:id="@+id/simpleListView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:divider="@color/material_blue_grey_800"
+    android:dividerHeight="1dp" />
+
+
+</RelativeLayout>

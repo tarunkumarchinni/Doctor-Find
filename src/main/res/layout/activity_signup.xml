@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tarunkumar.doctorfind.signup">
+  <!--<TextView
+      android:id="@+id/tool"
+      android:gravity="center"
+      android:text="signup page"
+      android:title="signup page"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />-->
+    <EditText
+
+        android:id="@+id/et_firstname"
+        android:hint="first name.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+    <EditText
+        android:layout_below="@+id/et_firstname"
+        android:id="@+id/et_lastname"
+        android:hint="last name.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <EditText
+        android:layout_below="@+id/et_lastname"
+        android:id="@+id/et_phno"
+        android:hint="phone no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <EditText
+        android:layout_below="@+id/et_phno"
+        android:id="@+id/et_email"
+        android:hint="example@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <!--<EditText
+        android:layout_below="@+id/et_email"
+        android:id="@+id/et_address"
+        android:hint="address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />-->
+  <Spinner android:layout_below="@+id/et_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:id="@+id/et_address"
+      ></Spinner>
+    <EditText
+        android:id="@+id/et_username1"
+        android:hint="user name.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_below="@+id/et_address"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/et_userpass"
+    android:hint="password.."
+        android:inputType="textPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp"
+        android:layout_below="@+id/et_username1"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/et_usercon"
+        android:hint="conform password.."
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_below="@+id/et_userpass"
+        android:layout_alignParentStart="true" />
+
+  <Button
+      android:id="@+id/bt"
+      android:layout_width="wrap_content"
+
+      android:layout_height="wrap_content"
+      android:text="signup"
+      android:textColor="#ffffff"
+      android:visibility="visible"
+      android:background="@color/colorPrimary"
+      android:layout_below="@+id/et_usercon"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
